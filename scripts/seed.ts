@@ -45,7 +45,7 @@ const products = [
   {
     name: "Samsung Galaxy S24 Ultra",
     slug: "samsung-s24-ultra",
-    image: "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-s928-sm-s928bztqins-539573338?$650_519_PNG$",
+    image: "https://m.media-amazon.com/images/I/71cxhjiPEuL._SX679_.jpg",
     mrp: 129999,
     basePrice: 129999,
     variants: [
@@ -76,7 +76,7 @@ const products = [
   {
     name: "Google Pixel 8 Pro",
     slug: "google-pixel-8-pro",
-    image: "https://lh3.googleusercontent.com/vH2P3iSOfYyPZkO2Nn0vVqH1hS_XzS_B94z_zJ_7-g_J1_zZ_N8h9q8J_N_E_F_5_H_D_q_P_h_M_H_G_F_w_N_3_C_K_p_o_O_P_t_q_L_Q=s0",
+    image: "https://m.media-amazon.com/images/I/71N1A4eUXXL._SX679_.jpg",
     mrp: 106999,
     basePrice: 106999,
     variants: [
@@ -240,7 +240,7 @@ const products = [
   {
     name: "Samsung Galaxy Tab S9",
     slug: "samsung-tab-s9",
-    image: "https://images.samsung.com/is/image/samsung/p6pim/in/sm-x710nzaainu/gallery/in-galaxy-tab-s9-wifi-x710-sm-x710nzaainu-537446554?$650_519_PNG$",
+    image: "https://m.media-amazon.com/images/I/61Nl-Xj1B+L._SX679_.jpg",
     mrp: 72999,
     basePrice: 72999,
     variants: [
