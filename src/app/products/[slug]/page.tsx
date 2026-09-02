@@ -66,14 +66,19 @@ export default function ProductPage() {
     );
   }
 
-  // Calculate dynamic price based on variants
+  // Calculate dynamic price and image based on variants
   let currentPrice = product.basePrice;
+  let dynamicImage = product.image;
+  
   product.variants.forEach((v: any) => {
     const selectedValue = selectedVariants[v.name];
     if (selectedValue) {
       const option = v.options.find((o: any) => o.value === selectedValue);
       if (option) {
         currentPrice += option.extraPrice;
+        if (option.image) {
+          dynamicImage = option.image;
+        }
       }
     }
   });
@@ -93,7 +98,7 @@ export default function ProductPage() {
     addToCart({
       productId: product.id,
       name: product.name,
-      image: product.image,
+      image: dynamicImage,
       price: currentPrice,
       selectedVariants,
       selectedEmiPlanId: selectedPlanId || undefined
@@ -136,7 +141,7 @@ export default function ProductPage() {
           </p>
           
           <div className="flex-grow flex items-center justify-center mb-8 min-h-[250px]">
-            <img src={product.image} alt={product.name} className="w-full max-w-[280px] object-contain drop-shadow-md" />
+            <img src={dynamicImage} alt={product.name} className="w-full max-w-[280px] object-contain drop-shadow-md transition-all duration-300" />
           </div>
 
           {/* Variants section */}

@@ -32,6 +32,7 @@ model Option {
   variantId  String
   value      String
   extraPrice Int      @default(0)
+  image      String?
   variant    Variant  @relation(fields: [variantId], references: [id], onDelete: Cascade)
 }
 

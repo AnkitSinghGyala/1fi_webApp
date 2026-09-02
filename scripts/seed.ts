@@ -14,24 +14,24 @@ const products = [
   {
     name: "iPhone 17 Pro",
     slug: "iphone-17-pro",
-    image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692846360609",
+    image: "/products/iphone-17-pro.jpg",
     mrp: 134900,
     basePrice: 127400,
     variants: [
       {
         name: "Storage",
         options: [
-          { value: "256GB", extraPrice: 0 },
-          { value: "512GB", extraPrice: 20000 },
-          { value: "1TB", extraPrice: 40000 }
+          { value: "256GB", extraPrice: 0, image: null },
+          { value: "512GB", extraPrice: 20000, image: null },
+          { value: "1TB", extraPrice: 40000, image: null }
         ]
       },
       {
         name: "Color",
         options: [
-          { value: "Silver", extraPrice: 0 },
-          { value: "Gold", extraPrice: 0 },
-          { value: "Space Black", extraPrice: 0 }
+          { value: "Silver", extraPrice: 0, image: "/products/iphone-17-pro-silver.jpg" },
+          { value: "Gold", extraPrice: 0, image: "/products/iphone-17-pro-gold.jpg" },
+          { value: "Space Black", extraPrice: 0, image: "/products/iphone-17-pro-space-black.jpg" }
         ]
       }
     ],
@@ -52,17 +52,17 @@ const products = [
       {
         name: "Storage",
         options: [
-          { value: "256GB", extraPrice: 0 },
-          { value: "512GB", extraPrice: 10000 },
-          { value: "1TB", extraPrice: 20000 }
+          { value: "256GB", extraPrice: 0, image: null },
+          { value: "512GB", extraPrice: 10000, image: null },
+          { value: "1TB", extraPrice: 20000, image: null }
         ]
       },
       {
         name: "Color",
         options: [
-          { value: "Titanium Gray", extraPrice: 0 },
-          { value: "Titanium Black", extraPrice: 0 },
-          { value: "Titanium Violet", extraPrice: 0 }
+          { value: "Titanium Gray", extraPrice: 0, image: "https://images.unsplash.com/photo-1610945265064-3234dac85b70?w=800&q=80" },
+          { value: "Titanium Black", extraPrice: 0, image: "https://images.unsplash.com/photo-1610945486795-3234dac85b70?w=800&q=80" },
+          { value: "Titanium Violet", extraPrice: 0, image: "https://images.unsplash.com/photo-1610945486795-3234dac85b71?w=800&q=80" }
         ]
       }
     ],
@@ -83,17 +83,17 @@ const products = [
       {
         name: "Storage",
         options: [
-          { value: "128GB", extraPrice: 0 },
-          { value: "256GB", extraPrice: 7000 },
-          { value: "512GB", extraPrice: 14000 }
+          { value: "128GB", extraPrice: 0, image: null },
+          { value: "256GB", extraPrice: 7000, image: null },
+          { value: "512GB", extraPrice: 14000, image: null }
         ]
       },
       {
         name: "Color",
         options: [
-          { value: "Obsidian", extraPrice: 0 },
-          { value: "Porcelain", extraPrice: 0 },
-          { value: "Bay", extraPrice: 0 }
+          { value: "Obsidian", extraPrice: 0, image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80" },
+          { value: "Porcelain", extraPrice: 0, image: "https://images.unsplash.com/photo-1598327105666-5b89351aff98?w=800&q=80" },
+          { value: "Bay", extraPrice: 0, image: "https://images.unsplash.com/photo-1598327105666-5b89351aff99?w=800&q=80" }
         ]
       }
     ],
@@ -106,24 +106,24 @@ const products = [
   {
     name: "MacBook Pro 16-inch (M3 Max)",
     slug: "macbook-pro-16-m3",
-    image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+    image: "/products/macbook-pro.jpg",
     mrp: 349900,
     basePrice: 349900,
     variants: [
       {
         name: "Storage",
         options: [
-          { value: "1TB", extraPrice: 0 },
-          { value: "2TB", extraPrice: 40000 },
-          { value: "4TB", extraPrice: 100000 }
+          { value: "1TB", extraPrice: 0, image: null },
+          { value: "2TB", extraPrice: 40000, image: null },
+          { value: "4TB", extraPrice: 100000, image: null }
         ]
       },
       {
         name: "Memory",
         options: [
-          { value: "36GB", extraPrice: 0 },
-          { value: "48GB", extraPrice: 20000 },
-          { value: "64GB", extraPrice: 40000 }
+          { value: "36GB", extraPrice: 0, image: null },
+          { value: "48GB", extraPrice: 20000, image: null },
+          { value: "64GB", extraPrice: 40000, image: null }
         ]
       }
     ],
@@ -143,15 +143,15 @@ const products = [
       {
         name: "Processor",
         options: [
-          { value: "Intel i7", extraPrice: 0 },
-          { value: "Intel i9", extraPrice: 30000 }
+          { value: "Intel i7", extraPrice: 0, image: null },
+          { value: "Intel i9", extraPrice: 30000, image: null }
         ]
       },
       {
         name: "Storage",
         options: [
-          { value: "512GB", extraPrice: 0 },
-          { value: "1TB", extraPrice: 15000 }
+          { value: "512GB", extraPrice: 0, image: null },
+          { value: "1TB", extraPrice: 15000, image: null }
         ]
       }
     ],
@@ -163,16 +163,16 @@ const products = [
   {
     name: "Sony WH-1000XM5 Headphones",
     slug: "sony-wh-1000xm5",
-    image: "https://www.sony.co.in/image/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF",
+    image: "/products/sony-wh1000xm5.jpg",
     mrp: 34990,
     basePrice: 29990,
     variants: [
       {
         name: "Color",
         options: [
-          { value: "Black", extraPrice: 0 },
-          { value: "Platinum Silver", extraPrice: 0 },
-          { value: "Midnight Blue", extraPrice: 0 }
+          { value: "Black", extraPrice: 0, image: "/products/sony-wh1000xm5-black.jpg" },
+          { value: "Platinum Silver", extraPrice: 0, image: "/products/sony-wh1000xm5-silver.jpg" },
+          { value: "Midnight Blue", extraPrice: 0, image: "/products/sony-wh1000xm5-blue.jpg" }
         ]
       }
     ],
@@ -185,22 +185,22 @@ const products = [
   {
     name: "Apple Watch Series 9",
     slug: "apple-watch-series-9",
-    image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s9-alum-midnight-nc-9s_VW_34FR+watch-45-alum-midnight-cell-9s_VW_34FR_WF_CO?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1693206037703%2C1693207399432",
+    image: "/products/apple-watch-9.jpg",
     mrp: 41900,
     basePrice: 39900,
     variants: [
       {
         name: "Size",
         options: [
-          { value: "41mm", extraPrice: 0 },
-          { value: "45mm", extraPrice: 3000 }
+          { value: "41mm", extraPrice: 0, image: null },
+          { value: "45mm", extraPrice: 3000, image: null }
         ]
       },
       {
         name: "Connectivity",
         options: [
-          { value: "GPS", extraPrice: 0 },
-          { value: "GPS + Cellular", extraPrice: 10000 }
+          { value: "GPS", extraPrice: 0, image: null },
+          { value: "GPS + Cellular", extraPrice: 10000, image: null }
         ]
       }
     ],
@@ -212,22 +212,22 @@ const products = [
   {
     name: "iPad Air (5th Generation)",
     slug: "ipad-air-5",
-    image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-storage-select-202207-space-gray-wifi?wid=470&hei=556&fmt=png-alpha&.v=1655246755452",
+    image: "/products/ipad-air-5.jpg",
     mrp: 59900,
     basePrice: 54900,
     variants: [
       {
         name: "Storage",
         options: [
-          { value: "64GB", extraPrice: 0 },
-          { value: "256GB", extraPrice: 15000 }
+          { value: "64GB", extraPrice: 0, image: null },
+          { value: "256GB", extraPrice: 15000, image: null }
         ]
       },
       {
         name: "Connectivity",
         options: [
-          { value: "Wi-Fi", extraPrice: 0 },
-          { value: "Wi-Fi + Cellular", extraPrice: 15000 }
+          { value: "Wi-Fi", extraPrice: 0, image: null },
+          { value: "Wi-Fi + Cellular", extraPrice: 15000, image: null }
         ]
       }
     ],
@@ -247,15 +247,15 @@ const products = [
       {
         name: "Storage",
         options: [
-          { value: "128GB", extraPrice: 0 },
-          { value: "256GB", extraPrice: 11000 }
+          { value: "128GB", extraPrice: 0, image: null },
+          { value: "256GB", extraPrice: 11000, image: null }
         ]
       },
       {
         name: "Color",
         options: [
-          { value: "Graphite", extraPrice: 0 },
-          { value: "Beige", extraPrice: 0 }
+          { value: "Graphite", extraPrice: 0, image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80" },
+          { value: "Beige", extraPrice: 0, image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b1?w=800&q=80" }
         ]
       }
     ],
@@ -275,16 +275,16 @@ const products = [
       {
         name: "Storage",
         options: [
-          { value: "128GB", extraPrice: 0 },
-          { value: "256GB", extraPrice: 5000 },
-          { value: "512GB", extraPrice: 10000 }
+          { value: "128GB", extraPrice: 0, image: null },
+          { value: "256GB", extraPrice: 5000, image: null },
+          { value: "512GB", extraPrice: 10000, image: null }
         ]
       },
       {
         name: "Color",
         options: [
-          { value: "White", extraPrice: 0 },
-          { value: "Dark Gray", extraPrice: 0 }
+          { value: "White", extraPrice: 0, image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=800&q=80" },
+          { value: "Dark Gray", extraPrice: 0, image: "https://images.unsplash.com/photo-1616348436168-de43ad0db180?w=800&q=80" }
         ]
       }
     ],
@@ -296,14 +296,14 @@ const products = [
   {
     name: "AirPods Pro (2nd Generation)",
     slug: "airpods-pro-2",
-    image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1694014871985",
+    image: "/products/airpods-pro-2.jpg",
     mrp: 24900,
     basePrice: 22900,
     variants: [
       {
         name: "Case",
         options: [
-          { value: "MagSafe (USB-C)", extraPrice: 0 }
+          { value: "MagSafe (USB-C)", extraPrice: 0, image: null }
         ]
       }
     ],
@@ -315,15 +315,15 @@ const products = [
   {
     name: "Logitech MX Master 3S",
     slug: "logitech-mx-master-3s",
-    image: "https://resource.logitech.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-top-view-pale-grey.png?v=1",
+    image: "/products/mx-master-3s.jpg",
     mrp: 10995,
     basePrice: 8995,
     variants: [
       {
         name: "Color",
         options: [
-          { value: "Graphite", extraPrice: 0 },
-          { value: "Pale Grey", extraPrice: 0 }
+          { value: "Graphite", extraPrice: 0, image: "/products/mx-master-3s-graphite.jpg" },
+          { value: "Pale Grey", extraPrice: 0, image: "/products/mx-master-3s.jpg" }
         ]
       }
     ],
@@ -334,15 +334,15 @@ const products = [
   {
     name: "Dyson V12 Detect Slim",
     slug: "dyson-v12",
-    image: "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/447098-01.png?$responsive$&fmt=png-alpha&cropPathE=desktop&fit=stretch,1&wid=400",
+    image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80",
     mrp: 55900,
     basePrice: 51900,
     variants: [
       {
         name: "Variant",
         options: [
-          { value: "Submarine", extraPrice: 0 },
-          { value: "Absolute", extraPrice: 3000 }
+          { value: "Submarine", extraPrice: 0, image: null },
+          { value: "Absolute", extraPrice: 3000, image: null }
         ]
       }
     ],
@@ -362,8 +362,8 @@ const products = [
       {
         name: "Edition",
         options: [
-          { value: "Digital Edition", extraPrice: 0 },
-          { value: "Disc Edition", extraPrice: 5000 }
+          { value: "Digital Edition", extraPrice: 0, image: null },
+          { value: "Disc Edition", extraPrice: 5000, image: null }
         ]
       }
     ],
@@ -382,8 +382,8 @@ const products = [
       {
         name: "Size",
         options: [
-          { value: "55-inch", extraPrice: 0 },
-          { value: "65-inch", extraPrice: 70000 }
+          { value: "55-inch", extraPrice: 0, image: null },
+          { value: "65-inch", extraPrice: 70000, image: null }
         ]
       }
     ],
@@ -422,6 +422,7 @@ async function seed() {
                 create: v.options.map((o) => ({
                   value: o.value,
                   extraPrice: o.extraPrice,
+                  image: o.image,
                 })),
               },
             })),
