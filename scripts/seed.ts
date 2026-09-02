@@ -45,7 +45,7 @@ const products = [
   {
     name: "Samsung Galaxy S24 Ultra",
     slug: "samsung-s24-ultra",
-    image: "https://m.media-amazon.com/images/I/71cxhjiPEuL._SX679_.jpg",
+    image: "https://images.unsplash.com/photo-1610945265064-3234dac85b70?w=800&q=80",
     mrp: 129999,
     basePrice: 129999,
     variants: [
@@ -76,7 +76,7 @@ const products = [
   {
     name: "Google Pixel 8 Pro",
     slug: "google-pixel-8-pro",
-    image: "https://m.media-amazon.com/images/I/71N1A4eUXXL._SX679_.jpg",
+    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80",
     mrp: 106999,
     basePrice: 106999,
     variants: [
@@ -136,7 +136,7 @@ const products = [
   {
     name: "Dell XPS 15",
     slug: "dell-xps-15",
-    image: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/black/notebook-xps-15-9530-t-black-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=555&qlt=100,1&resMode=sharp2&size=555,402&chrss=full",
+    image: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&q=80",
     mrp: 189999,
     basePrice: 175999,
     variants: [
@@ -240,7 +240,7 @@ const products = [
   {
     name: "Samsung Galaxy Tab S9",
     slug: "samsung-tab-s9",
-    image: "https://m.media-amazon.com/images/I/61Nl-Xj1B+L._SX679_.jpg",
+    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80",
     mrp: 72999,
     basePrice: 72999,
     variants: [
@@ -268,7 +268,7 @@ const products = [
   {
     name: "Nothing Phone (2)",
     slug: "nothing-phone-2",
-    image: "https://in.nothing.tech/cdn/shop/files/1-White-Back.png?v=1688998822&width=1200",
+    image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=800&q=80",
     mrp: 44999,
     basePrice: 42999,
     variants: [
@@ -355,7 +355,7 @@ const products = [
   {
     name: "PlayStation 5 Console",
     slug: "ps5-console",
-    image: "https://m.media-amazon.com/images/I/51rRcbA4N2L._SX522_.jpg",
+    image: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&q=80",
     mrp: 54990,
     basePrice: 49990,
     variants: [
@@ -375,7 +375,7 @@ const products = [
   {
     name: "LG C3 55-inch OLED TV",
     slug: "lg-c3-55-oled",
-    image: "https://www.lg.com/in/images/tvs/md07590812/gallery/OLED55C3PSA-D-01.jpg",
+    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
     mrp: 189990,
     basePrice: 129990,
     variants: [
