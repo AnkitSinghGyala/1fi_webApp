@@ -14,7 +14,7 @@ const products = [
   {
     name: "iPhone 17 Pro",
     slug: "iphone-17-pro",
-    image: "/products/iphone-17-pro/iphone-17-pro.jpg",
+    image: "/products/iphone-17-pro/iphone-17-pro-space-black.jpg",
     mrp: 134900,
     basePrice: 127400,
     variants: [
@@ -45,7 +45,7 @@ const products = [
   {
     name: "Samsung Galaxy S24 Ultra",
     slug: "samsung-s24-ultra",
-    image: "https://images.unsplash.com/photo-1610945265064-3234dac85b70?w=800&q=80",
+    image: "/products/samsung-s24-ultra/Samsung Galaxy S24 Ultra Titanium Black.jpg",
     mrp: 129999,
     basePrice: 129999,
     variants: [
@@ -60,9 +60,9 @@ const products = [
       {
         name: "Color",
         options: [
-          { value: "Titanium Gray", extraPrice: 0, image: "https://images.unsplash.com/photo-1610945265064-3234dac85b70?w=800&q=80" },
-          { value: "Titanium Black", extraPrice: 0, image: "https://images.unsplash.com/photo-1610945486795-3234dac85b70?w=800&q=80" },
-          { value: "Titanium Violet", extraPrice: 0, image: "https://images.unsplash.com/photo-1610945486795-3234dac85b71?w=800&q=80" }
+          { value: "Titanium Gray", extraPrice: 0, image: "/products/samsung-s24-ultra/Samsung Galaxy S24 Ultra Titanium Black.jpg" },
+          { value: "Titanium Black", extraPrice: 0, image: "/products/samsung-s24-ultra/Samsung Galaxy S24 Ultra Titanium Black.jpg" },
+          { value: "Titanium Violet", extraPrice: 0, image: "/products/samsung-s24-ultra/Samsung Galaxy S24 Ultra Titanium Gray.png" }
         ]
       }
     ],
@@ -76,7 +76,7 @@ const products = [
   {
     name: "Google Pixel 8 Pro",
     slug: "google-pixel-8-pro",
-    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80",
+    image: "/products/google-pixel-8-pro/Google Pixel 8 Pro 128GB Obsidian.jpg",
     mrp: 106999,
     basePrice: 106999,
     variants: [
@@ -91,9 +91,9 @@ const products = [
       {
         name: "Color",
         options: [
-          { value: "Obsidian", extraPrice: 0, image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80" },
-          { value: "Porcelain", extraPrice: 0, image: "https://images.unsplash.com/photo-1598327105666-5b89351aff98?w=800&q=80" },
-          { value: "Bay", extraPrice: 0, image: "https://images.unsplash.com/photo-1598327105666-5b89351aff99?w=800&q=80" }
+          { value: "Obsidian", extraPrice: 0, image: "/products/google-pixel-8-pro/Google Pixel 8 Pro 128GB Obsidian.jpg" },
+          { value: "Porcelain", extraPrice: 0, image: "/products/google-pixel-8-pro/Google Pixel 8 Pro 128GB Porcelain.jpg" },
+          { value: "Bay", extraPrice: 0, image: "/products/google-pixel-8-pro/Google Pixel 8 Pro 128GB Bay.jpg" }
         ]
       }
     ],
@@ -106,7 +106,7 @@ const products = [
   {
     name: "MacBook Pro 16-inch (M3 Max)",
     slug: "macbook-pro-16-m3",
-    image: "/products/macbook-pro-16-m3/macbook-pro.jpg",
+    image: "/products/macbook-pro-16-m3/MacBook Pro 16-inch.jpg",
     mrp: 349900,
     basePrice: 349900,
     variants: [
@@ -136,7 +136,7 @@ const products = [
   {
     name: "Dell XPS 15",
     slug: "dell-xps-15",
-    image: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&q=80",
+    image: "/products/dell-xps-15/Dell XPS 15 .jpg",
     mrp: 189999,
     basePrice: 175999,
     variants: [
@@ -163,16 +163,16 @@ const products = [
   {
     name: "Sony WH-1000XM5 Headphones",
     slug: "sony-wh-1000xm5",
-    image: "/products/sony-wh-1000xm5/sony-wh1000xm5.jpg",
+    image: "/products/sony-wh-1000xm5/Sony WH-1000XM5 Black.jpg",
     mrp: 34990,
     basePrice: 29990,
     variants: [
       {
         name: "Color",
         options: [
-          { value: "Black", extraPrice: 0, image: "/products/sony-wh-1000xm5/sony-wh1000xm5-black.jpg" },
-          { value: "Platinum Silver", extraPrice: 0, image: "/products/sony-wh-1000xm5/sony-wh1000xm5-silver.jpg" },
-          { value: "Midnight Blue", extraPrice: 0, image: "/products/sony-wh-1000xm5/sony-wh1000xm5-blue.jpg" }
+          { value: "Black", extraPrice: 0, image: "/products/sony-wh-1000xm5/Sony WH-1000XM5 Black.jpg" },
+          { value: "Platinum Silver", extraPrice: 0, image: "/products/sony-wh-1000xm5/Sony WH-1000XM5 Platinum Silver.jpg" },
+          { value: "Midnight Blue", extraPrice: 0, image: "/products/sony-wh-1000xm5/Sony WH-1000XM5  Midnight Blue.jpg" }
         ]
       }
     ],
@@ -185,7 +185,7 @@ const products = [
   {
     name: "Apple Watch Series 9",
     slug: "apple-watch-series-9",
-    image: "/products/apple-watch-series-9/apple-watch-9.jpg",
+    image: "/products/apple-watch-series-9/Apple Watch Series 9.jpg",
     mrp: 41900,
     basePrice: 39900,
     variants: [
@@ -315,15 +315,15 @@ const products = [
   {
     name: "Logitech MX Master 3S",
     slug: "logitech-mx-master-3s",
-    image: "/products/logitech-mx-master-3s/mx-master-3s.jpg",
+    image: "/products/logitech-mx-master-3s/Logitech MX Master 3S Graphite.jpg",
     mrp: 10995,
     basePrice: 8995,
     variants: [
       {
         name: "Color",
         options: [
-          { value: "Graphite", extraPrice: 0, image: "/products/logitech-mx-master-3s/mx-master-3s-graphite.jpg" },
-          { value: "Pale Grey", extraPrice: 0, image: "/products/logitech-mx-master-3s/mx-master-3s.jpg" }
+          { value: "Graphite", extraPrice: 0, image: "/products/logitech-mx-master-3s/Logitech MX Master 3S Graphite.jpg" },
+          { value: "Pale Grey", extraPrice: 0, image: "/products/logitech-mx-master-3s/Logitech MX Master 3S Pale Gray.jpg" }
         ]
       }
     ],
@@ -334,15 +334,15 @@ const products = [
   {
     name: "Dyson V12 Detect Slim",
     slug: "dyson-v12",
-    image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80",
+    image: "/products/dyson-v12/Dyson V12 Detect Slim Absolute.jpg",
     mrp: 55900,
     basePrice: 51900,
     variants: [
       {
         name: "Variant",
         options: [
-          { value: "Submarine", extraPrice: 0, image: null },
-          { value: "Absolute", extraPrice: 3000, image: null }
+          { value: "Submarine", extraPrice: 0, image: "/products/dyson-v12/Dyson V12 Detect Slim Submarine.jpg" },
+          { value: "Absolute", extraPrice: 3000, image: "/products/dyson-v12/Dyson V12 Detect Slim Absolute.jpg" }
         ]
       }
     ],
@@ -355,7 +355,7 @@ const products = [
   {
     name: "PlayStation 5 Console",
     slug: "ps5-console",
-    image: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&q=80",
+    image: "/products/ps5-console/PlayStation 5 Console.jpg",
     mrp: 54990,
     basePrice: 49990,
     variants: [
