@@ -61,12 +61,21 @@ export default function CartPage() {
                       {item.name}
                     </Link>
                   </h3>
-                  <p className="font-bold whitespace-nowrap ml-4">{formatPrice(item.price)}</p>
+                  <p className="font-bold whitespace-nowrap ml-4">
+                    {formatPrice(item.emiDetails ? item.emiDetails.monthlyAmount : item.price)}
+                    {item.emiDetails && <span className="text-sm font-normal text-gray-500">/mo</span>}
+                  </p>
                 </div>
                 
-                <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+                <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
                   {Object.values(item.selectedVariants).join(' • ')}
                 </p>
+                
+                {item.emiDetails && (
+                  <p className="text-sm text-green-600 dark:text-green-400 mb-2 font-medium">
+                    EMI: {formatPrice(item.emiDetails.monthlyAmount)}/mo for {item.emiDetails.months} months
+                  </p>
+                )}
                 
                 <div className="mt-auto flex items-center justify-between">
                   <div className="flex items-center border border-gray-200 dark:border-gray-700 rounded-lg bg-gray-50 dark:bg-gray-800">

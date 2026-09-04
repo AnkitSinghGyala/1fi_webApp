@@ -95,13 +95,31 @@ export default function ProductPage() {
   };
 
   const handleAddToCart = () => {
+    let emiDetails = undefined;
+    if (selectedPlanId && product.emiPlans) {
+      const plan = product.emiPlans.find((p: any) => p.id === selectedPlanId);
+      if (plan) {
+        const totalWithInterest = currentPrice + (currentPrice * (plan.interestRate / 100) * (plan.months / 12));
+        const displayMonthly = plan.interestRate === 0 
+          ? Math.round(currentPrice / plan.months)
+          : Math.round(totalWithInterest / plan.months);
+        
+        emiDetails = {
+          months: plan.months,
+          monthlyAmount: displayMonthly,
+          interestRate: plan.interestRate
+        };
+      }
+    }
+
     addToCart({
       productId: product.id,
       name: product.name,
       image: dynamicImage,
       price: currentPrice,
       selectedVariants,
-      selectedEmiPlanId: selectedPlanId || undefined
+      selectedEmiPlanId: selectedPlanId || undefined,
+      emiDetails
     });
     
     setAddedToast(true);

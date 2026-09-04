@@ -14,7 +14,7 @@ const products = [
   {
     name: "iPhone 17 Pro",
     slug: "iphone-17-pro",
-    image: "/products/iphone-17-pro.jpg",
+    image: "/products/iphone-17-pro/iphone-17-pro.jpg",
     mrp: 134900,
     basePrice: 127400,
     variants: [
@@ -29,9 +29,9 @@ const products = [
       {
         name: "Color",
         options: [
-          { value: "Silver", extraPrice: 0, image: "/products/iphone-17-pro-silver.jpg" },
-          { value: "Gold", extraPrice: 0, image: "/products/iphone-17-pro-gold.jpg" },
-          { value: "Space Black", extraPrice: 0, image: "/products/iphone-17-pro-space-black.jpg" }
+          { value: "Silver", extraPrice: 0, image: "/products/iphone-17-pro/iphone-17-pro-silver.jpg" },
+          { value: "Gold", extraPrice: 0, image: "/products/iphone-17-pro/iphone-17-pro-gold.jpg" },
+          { value: "Space Black", extraPrice: 0, image: "/products/iphone-17-pro/iphone-17-pro-space-black.jpg" }
         ]
       }
     ],
@@ -106,7 +106,7 @@ const products = [
   {
     name: "MacBook Pro 16-inch (M3 Max)",
     slug: "macbook-pro-16-m3",
-    image: "/products/macbook-pro.jpg",
+    image: "/products/macbook-pro-16-m3/macbook-pro.jpg",
     mrp: 349900,
     basePrice: 349900,
     variants: [
@@ -163,16 +163,16 @@ const products = [
   {
     name: "Sony WH-1000XM5 Headphones",
     slug: "sony-wh-1000xm5",
-    image: "/products/sony-wh1000xm5.jpg",
+    image: "/products/sony-wh-1000xm5/sony-wh1000xm5.jpg",
     mrp: 34990,
     basePrice: 29990,
     variants: [
       {
         name: "Color",
         options: [
-          { value: "Black", extraPrice: 0, image: "/products/sony-wh1000xm5-black.jpg" },
-          { value: "Platinum Silver", extraPrice: 0, image: "/products/sony-wh1000xm5-silver.jpg" },
-          { value: "Midnight Blue", extraPrice: 0, image: "/products/sony-wh1000xm5-blue.jpg" }
+          { value: "Black", extraPrice: 0, image: "/products/sony-wh-1000xm5/sony-wh1000xm5-black.jpg" },
+          { value: "Platinum Silver", extraPrice: 0, image: "/products/sony-wh-1000xm5/sony-wh1000xm5-silver.jpg" },
+          { value: "Midnight Blue", extraPrice: 0, image: "/products/sony-wh-1000xm5/sony-wh1000xm5-blue.jpg" }
         ]
       }
     ],
@@ -185,7 +185,7 @@ const products = [
   {
     name: "Apple Watch Series 9",
     slug: "apple-watch-series-9",
-    image: "/products/apple-watch-9.jpg",
+    image: "/products/apple-watch-series-9/apple-watch-9.jpg",
     mrp: 41900,
     basePrice: 39900,
     variants: [
@@ -212,7 +212,7 @@ const products = [
   {
     name: "iPad Air (5th Generation)",
     slug: "ipad-air-5",
-    image: "/products/ipad-air-5.jpg",
+    image: "/products/ipad-air-5/ipad-air-5.jpg",
     mrp: 59900,
     basePrice: 54900,
     variants: [
@@ -238,9 +238,9 @@ const products = [
     ]
   },
   {
-    name: "Samsung Galaxy Tab S9",
-    slug: "samsung-tab-s9",
-    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80",
+    name: "Samsung Galaxy Tab S10 Lite",
+    slug: "samsung-tab-s10-lite",
+    image: "/products/Samsung Galaxy Tab S10 Lite/ Samsung Galaxy Tab S10 Lite Black.jpg",
     mrp: 72999,
     basePrice: 72999,
     variants: [
@@ -254,8 +254,8 @@ const products = [
       {
         name: "Color",
         options: [
-          { value: "Graphite", extraPrice: 0, image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80" },
-          { value: "Beige", extraPrice: 0, image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b1?w=800&q=80" }
+          { value: "Black", extraPrice: 0, image: "/products/Samsung Galaxy Tab S10 Lite/ Samsung Galaxy Tab S10 Lite Black.jpg" },
+          { value: "Silver", extraPrice: 0, image: "/products/Samsung Galaxy Tab S10 Lite/ Samsung Galaxy Tab S10 Lite Silver.jpg" }
         ]
       }
     ],
@@ -266,9 +266,9 @@ const products = [
     ]
   },
   {
-    name: "Nothing Phone (2)",
-    slug: "nothing-phone-2",
-    image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=800&q=80",
+    name: "Nothing Phone 4(b)",
+    slug: "nothing-phone-4b",
+    image: "/products/Nothing Phone 4(b)/Nothing Phone 4(b) white.jpg",
     mrp: 44999,
     basePrice: 42999,
     variants: [
@@ -283,8 +283,8 @@ const products = [
       {
         name: "Color",
         options: [
-          { value: "White", extraPrice: 0, image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=800&q=80" },
-          { value: "Dark Gray", extraPrice: 0, image: "https://images.unsplash.com/photo-1616348436168-de43ad0db180?w=800&q=80" }
+          { value: "White", extraPrice: 0, image: "/products/Nothing Phone 4(b)/Nothing Phone 4(b) white.jpg" },
+          { value: "Black", extraPrice: 0, image: "/products/Nothing Phone 4(b)/Nothing Phone 4(b) black.jpg" }
         ]
       }
     ],
@@ -296,7 +296,7 @@ const products = [
   {
     name: "AirPods Pro (2nd Generation)",
     slug: "airpods-pro-2",
-    image: "/products/airpods-pro-2.jpg",
+    image: "/products/airpods-pro-2/airpods-pro-2.jpg",
     mrp: 24900,
     basePrice: 22900,
     variants: [
@@ -315,15 +315,15 @@ const products = [
   {
     name: "Logitech MX Master 3S",
     slug: "logitech-mx-master-3s",
-    image: "/products/mx-master-3s.jpg",
+    image: "/products/logitech-mx-master-3s/mx-master-3s.jpg",
     mrp: 10995,
     basePrice: 8995,
     variants: [
       {
         name: "Color",
         options: [
-          { value: "Graphite", extraPrice: 0, image: "/products/mx-master-3s-graphite.jpg" },
-          { value: "Pale Grey", extraPrice: 0, image: "/products/mx-master-3s.jpg" }
+          { value: "Graphite", extraPrice: 0, image: "/products/logitech-mx-master-3s/mx-master-3s-graphite.jpg" },
+          { value: "Pale Grey", extraPrice: 0, image: "/products/logitech-mx-master-3s/mx-master-3s.jpg" }
         ]
       }
     ],
@@ -373,9 +373,9 @@ const products = [
     ]
   },
   {
-    name: "LG C3 55-inch OLED TV",
-    slug: "lg-c3-55-oled",
-    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
+    name: "Sony BRAVIA 3 Series 139 cm (55 inches)",
+    slug: "sony-bravia-3-series-55",
+    image: "/products/Sony BRAVIA 3 Series 139 cm (55 inches)/Sony BRAVIA 3 Series 139 cm (55 inches).jpg",
     mrp: 189990,
     basePrice: 129990,
     variants: [

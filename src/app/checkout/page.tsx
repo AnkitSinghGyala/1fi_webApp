@@ -171,7 +171,10 @@ export default function CheckoutPage() {
                   <div className="flex-grow">
                     <h4 className="text-sm font-bold truncate text-gray-900 dark:text-gray-100">{item.name}</h4>
                     <p className="text-xs text-gray-500">Qty: {item.quantity}</p>
-                    <p className="text-sm font-medium mt-1">{formatPrice(item.price)}</p>
+                    <p className="text-sm font-medium mt-1">
+                      {formatPrice(item.emiDetails ? item.emiDetails.monthlyAmount : item.price)}
+                      {item.emiDetails && <span className="text-xs font-normal text-gray-500 ml-1">/mo ({item.emiDetails.months}m)</span>}
+                    </p>
                   </div>
                 </div>
               ))}

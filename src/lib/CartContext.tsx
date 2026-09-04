@@ -11,6 +11,11 @@ export type CartItem = {
   quantity: number;
   selectedVariants: Record<string, string>;
   selectedEmiPlanId?: string;
+  emiDetails?: {
+    months: number;
+    monthlyAmount: number;
+    interestRate: number;
+  };
 };
 
 type CartContextType = {
@@ -91,7 +96,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   };
 
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
-  const totalPrice = items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+  const totalPrice = items.reduce((sum, item) => {
+    const effectivePrice = item.emiDetails ? item.emiDetails.monthlyAmount : item.price;
+    return sum + (effectivePrice * item.quantity);
+  }, 0);
 
   return (
     <CartContext.Provider 
